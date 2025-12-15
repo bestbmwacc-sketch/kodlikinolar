@@ -40,7 +40,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN",  "7395067120:AAETmYWyvKui08NUwM9i01wGn29Xdjt4
 if not BOT_TOKEN:
     raise SystemExit("BOT_TOKEN kerak. export BOT_TOKEN")
 try:
-    ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
+    ADMIN_ID = int(os.getenv("ADMIN_ID", "7794986117"))
 except Exception:
     ADMIN_ID = 0
 
